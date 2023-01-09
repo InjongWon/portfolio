@@ -101,9 +101,58 @@ export const aboutData: About = {
 };
 
 /**
- * Skills section
+ * Skills section,
  */
-export const skills: SkillGroup[] = [];
+export const skills: SkillGroup[] = [
+  {
+    name: 'Frontend development',
+    skills: [
+      {
+        name: 'HTML/CSS',
+        level: 10,
+      },
+      {
+        name: 'Javascript(React)',
+        level: 9,
+      },
+      {
+        name: 'Typescript(Angular)',
+        level: 9,
+      }
+    ],
+  },
+  {
+    name: 'Backend development',
+    skills: [
+      {
+        name: 'Python',
+        level: 9,
+      },
+      {
+        name: 'Java',
+        level: 7,
+      },
+      {
+        name: 'Node.js',
+        level: 7,
+      },
+      {
+        name: 'MySQL',
+        level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Algorithms',
+    skills: [
+      {
+        name: 'Data structures',
+        level: 10,
+      }
+      
+    ],
+  },
+];
 
 
 /**
@@ -199,6 +248,7 @@ export const experience: TimelineItem[] = [
     title: 'Software developer intern',
     content: (
       <p>
+        
         Worked in IBM Watson Commerce Insights Team.
         Perform UI E2E testing on Angular application using Protractor library
         Front End:
@@ -223,16 +273,16 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'Suman Dutta ',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      text: '',
     },
     {
       name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      text: '.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
       name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      text: '',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
