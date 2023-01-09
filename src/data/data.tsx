@@ -27,9 +27,10 @@ import {
   Hero,
   HomepageMeta,
   PortfolioItem,
-Social,
+  Social,
   TestimonialSection,
   TimelineItem,
+  SkillGroup
 } from './dataDef';
 
 /**
@@ -103,6 +104,7 @@ export const aboutData: About = {
 /**
  * Skills section
  */
+export const skills: SkillGroup[] = [];
 
 
 /**
