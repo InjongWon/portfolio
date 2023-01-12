@@ -131,10 +131,6 @@ export const skills: SkillGroup[] = [
         name: 'Node.js',
         level: 7,
       },
-      {
-        name: 'MySQL',
-        level: 8,
-      },
     ],
   },
   {
