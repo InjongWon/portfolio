@@ -92,8 +92,8 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `
-  I'm a senior computer science student studying at the University of Toronto, always keen to solve an tackle problems that will help our society one step at a time. Interested in fullstack development and deep learning module with image processing. 
-  I'm currently seeking for internships`,
+  I'm a senior computer science student studying at the University of Toronto, always keen in solving problemes here and there. Interested in backend development, cloud service, and software engineering.
+  Currently seeking for new grad software engineering position.`,
   aboutItems: [
     {label: 'Location', text: 'Toronto, ON', Icon: MapIcon},
     {label: 'Interests', text: 'Software engineering, Full stack development, DevOPS', Icon: SparklesIcon},
